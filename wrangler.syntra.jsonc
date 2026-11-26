@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "syntra-api",
+  "main": "worker/api.ts",
+  "compatibility_date": "2026-11-26",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "syntra-db",
+      "database_id": "b5aae25a-977a-498b-a924-3edfb571368e"
+    }
+  ],
+  "vars": {
+    "FRONTEND_ORIGIN": "https://syntra.netlify.app"
+  }
+}
