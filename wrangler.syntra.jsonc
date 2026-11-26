@@ -12,6 +12,6 @@
     }
   ],
   "vars": {
-    "FRONTEND_ORIGIN": "https://syntra.netlify.app"
+    "FRONTEND_ORIGIN": "https://syntramarket.netlify.app"
   }
 }
