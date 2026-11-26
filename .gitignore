@@ -34,12 +34,13 @@ yarn-error.log*
 # Checkout-local tool state
 /.wrangler/
 /.sites-runtime/
+/.netlify/
 
 # Workspace scaffolding and publication archives
 /.agents/
 /.codex/
-/outputs/
-/work/
+outputs/
+work/
 
-# OS metadata
+## OS metadata
 .DS_Store
