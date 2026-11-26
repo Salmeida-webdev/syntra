@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Syntra B2B | Compras empresariais",
   description: "Catálogo empresarial, condições comerciais por empresa e aprovação de pedidos.",
