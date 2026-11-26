@@ -18,6 +18,7 @@ export function proxy(request: NextRequest) {
     "base-uri 'self'",
     "form-action 'self'",
     "frame-ancestors 'none'",
+    "frame-src 'self'",
     "upgrade-insecure-requests",
   ].join("; ");
 
