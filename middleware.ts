@@ -1,11 +1,11 @@
 import { NextResponse, type NextRequest } from "next/server";
 
-function nonce() {
+function createNonce() {
   return btoa(crypto.randomUUID());
 }
 
-export function proxy(request: NextRequest) {
-  const requestNonce = nonce();
+export function middleware(request: NextRequest) {
+  const requestNonce = createNonce();
   const policy = [
     "default-src 'self'",
     `script-src 'self' 'nonce-${requestNonce}' 'strict-dynamic'`,
